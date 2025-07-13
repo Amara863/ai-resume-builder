@@ -22,7 +22,7 @@ def generate_summary(name, skills):
         return f"(Fallback) {fallback}"
 
 # --- Streamlit Config ---
-st.set_page_config(page_title="AI Resume Builder Pro", page_icon="📄", layout="wide")
+st.set_page_config(page_title="AI-Powered Resume Builder", page_icon="📄", layout="wide")
 
 if 'resume_data' not in st.session_state:
     st.session_state.resume_data = {"template": "Modern", "theme": "Blue", "font": "Arial"}
